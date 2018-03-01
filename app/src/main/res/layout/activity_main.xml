@@ -1,0 +1,448 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout    xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_gravity="center"
+android:columnCount="7"
+android:rowCount="7"
+
+tools:context="com.example.amarc.androidsquare.MainActivity">
+<GridLayout
+
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:columnCount="7"
+    android:rowCount="7">
+    <EditText
+        android:id="@+id/X00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="1"
+        android:textSize="25sp"
+        android:hint="\?"
+        android:maxLength="1"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/X01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="+"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/X02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="1"
+        android:textSize="25sp"
+        android:hint="\?"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:maxLength="1"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/X03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="+"
+        android:layout_row="0"
+        android:layout_column="3"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/X04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="1"
+        android:textSize="25sp"
+        android:hint="\?"
+        android:layout_row="0"
+        android:layout_column="4"
+        android:maxLength="1"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/X05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="\="
+        android:layout_row="0"
+        android:layout_column="5"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/X06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="6"
+        android:layout_row="0"
+        android:ems="1"
+        android:inputType="number"
+        android:text="x"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/X10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="+"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/X13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="+"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/X14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="+"
+        android:layout_row="1"
+        android:layout_column="4"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/X20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="2"
+        android:ems="1"
+        android:hint="\?"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/X21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="+"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/X22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="1"
+        android:textSize="25sp"
+        android:hint="\?"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:maxLength="1"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/X23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="+"
+        android:layout_row="2"
+        android:layout_column="3"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/X24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="1"
+        android:textSize="25sp"
+        android:hint="\?"
+        android:layout_row="2"
+        android:layout_column="4"
+        android:maxLength="1"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/X25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="\="
+        android:layout_row="2"
+        android:layout_column="5"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/X26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="6"
+        android:layout_row="2"
+        android:ems="1"
+        android:inputType="number"
+        android:text="y"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/X30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="+"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/X33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="+"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/X34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="+"
+        android:layout_row="3"
+        android:layout_column="4"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/X40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="1"
+        android:textSize="25sp"
+        android:hint="\?"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:maxLength="1"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/X41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="+"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/X42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="1"
+        android:textSize="25sp"
+        android:hint="\?"
+        android:layout_row="4"
+        android:layout_column="2"
+        android:maxLength="1"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/X43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="+"
+        android:layout_row="4"
+        android:layout_column="3"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/X44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="1"
+        android:textSize="25sp"
+        android:hint="\?"
+        android:layout_row="4"
+        android:layout_column="4"
+        android:maxLength="1"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/X45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="\="
+        android:layout_row="4"
+        android:layout_column="5"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/X46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="6"
+        android:layout_row="4"
+        android:ems="1"
+        android:inputType="number"
+        android:text="z"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/X50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="\="
+        android:layout_row="5"
+        android:layout_column="0"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/X53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="\="
+        android:layout_row="5"
+        android:layout_column="2"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:id="@+id/X54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="1"
+        android:textSize="25sp"
+        android:text="\="
+        android:layout_row="5"
+        android:layout_column="4"
+        android:textAlignment="center"
+
+        />
+    <EditText
+        android:id="@+id/X60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_row="6"
+        android:ems="1"
+        android:inputType="number"
+        android:text="x"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+    <EditText
+        android:id="@+id/X62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="2"
+        android:layout_row="6"
+        android:ems="1"
+        android:inputType="number"
+        android:text="y"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <EditText
+        android:id="@+id/X64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="4"
+        android:layout_row="6"
+        android:ems="1"
+        android:inputType="number"
+        android:text="z"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+</GridLayout>
+
+<GridLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:rowCount="2">
+
+    <Button
+        android:id="@+id/sub"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT" />
+
+    <Button
+        android:id="@+id/NEW"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEW GAME" />
+
+    <Button
+        android:id="@+id/aide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HELP" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EXIT" />
+
+</GridLayout>
+
+
+
+</LinearLayout>
